@@ -1,7 +1,7 @@
 module.exports = {
   title: "My Blog",
   description: "This is a blog.",
-  base: '/presslog/',
+  base: '/pressblog/',
   themeConfig: {
     logo: 'https://vuejs.org/images/logo.png',
     nav: [
