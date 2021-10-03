@@ -15,19 +15,6 @@ module.exports = {
         ]
       },
       { text: 'JavaScript', link: '/JavaScript' }
-    ],
-    sidebar: {
-      '/html': [
-        '',
-      ],
-
-      '/css': [
-        '', 
-      ],
-
-      '/JavaScript': [
-        '',        
-      ]
-    }
+    ]
   }, 
 }
