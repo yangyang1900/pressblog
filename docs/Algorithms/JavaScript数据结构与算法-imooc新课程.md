@@ -1,6 +1,6 @@
 ## JavaScript数据结构与算法-imooc新课程
 
-#### 0.绪论
+### 0.绪论
 
 - 数据结构：栈 队列 集合 链表 字典 树 图 堆
 - 进阶算法： 冒泡算法 选择算法 插入算法 归并算法 快速算法 顺序算法 二分搜索
@@ -36,7 +36,7 @@
 
 
 
-#### 1.时间/空间复杂度
+### 1.时间/空间复杂度
 
 
 
@@ -107,11 +107,11 @@ for(let i = 0; i < n; i++){
 
 
 
-#### 2.栈
+### 2.栈
 
 
 
-##### 1.基础理论
+#### 1.基础理论
 
 
 
@@ -145,7 +145,7 @@ let item2 = stack.pop()
 
 
 
-##### 2.LeetCode 20 有效的括号
+#### 2.LeetCode 20 有效的括号
 
 
 
@@ -269,7 +269,7 @@ var isValid = function(s) {
 
 
 
-##### 3.前端与栈
+#### 3.前端与栈
 
 
 
@@ -291,7 +291,7 @@ func1();
 
 
 
-##### 4.LeetCode 144 二叉树的前序遍历
+#### 4.LeetCode 144 二叉树的前序遍历
 
 
 
@@ -390,7 +390,7 @@ const preorderTraversal = (root) => {
 
 
 
-##### 5.思考题
+#### 5.思考题
 
 
 
@@ -451,11 +451,11 @@ const bin = (num) => {
 
 
 
-#### 3.队列
+### 3.队列
 
 
 
-##### 1.基础理论
+#### 1.基础理论
 
 
 
@@ -489,7 +489,7 @@ js中没有数据队列和栈这个数据结构但是可以用数组这个数据
 
 
 
-##### 2.LeetCode 933 最近的请求次数
+#### 2.LeetCode 933 最近的请求次数
 
 
 
@@ -569,7 +569,7 @@ RecentCounter.prototype.ping = function(t) {
 
 
 
-##### 3.前端与队列
+#### 3.前端与队列
 
 
 
@@ -602,7 +602,7 @@ setTimeout(() => {console.log(3)});
 
 
 
-##### 4.思考题
+#### 4.思考题
 
 
 
@@ -632,11 +632,11 @@ class Queue {
 
 
 
-#### 4.链表
+### 4.链表
 
 
 
-##### 1.基础理论
+#### 1.基础理论
 
 
 
@@ -678,7 +678,7 @@ while (p){
 
 
 
-##### 2.LeeetCode 237 删除链表中的节点
+#### 2.LeeetCode 237 删除链表中的节点
 
 
 
@@ -763,7 +763,7 @@ var deleteNode = function(node) {
 
 
 
-##### 3.LeetCode 206 反转链表
+#### 3.LeetCode 206 反转链表
 
 
 
@@ -823,7 +823,7 @@ var reverseList = function(head) {
 
 
 
-##### 4.LeetCode 2两数相加
+#### 4.LeetCode 2两数相加
 
 
 
@@ -906,7 +906,7 @@ var addTwoNumbers = function(l1, l2) {
 
 
 
-##### 5.LeetCode 83删除链表中的重复元素
+#### 5.LeetCode 83删除链表中的重复元素
 
 
 
@@ -955,7 +955,7 @@ var deleteDuplicates = function(head) {
 
 
 
-##### 6.LeetCode 141环形链表
+#### 6.LeetCode 141环形链表
 
 
 
@@ -1011,7 +1011,7 @@ var hasCycle = function(head) {
 
 
 
-##### 7.前端与链表：JS中的原型链
+#### 7.前端与链表：JS中的原型链
 
 
 
@@ -1079,7 +1079,7 @@ value b
 
 
 
-##### 8.前端与链表：使用链表指针获取JSON的节点值
+#### 8.前端与链表：使用链表指针获取JSON的节点值
 
 
 
@@ -1099,7 +1099,7 @@ path.forEach((k) => {
 
 
 
-##### 9.LeetCode 234回文链表
+#### 9.LeetCode 234回文链表
 
 
 
@@ -1150,11 +1150,11 @@ https://leetcode-cn.com/problems/palindrome-linked-list/solution/hui-wen-lian-bi
 
 
 
-#### 5.集合
+### 5.集合
 
 
 
-##### 1.基础理论
+#### 1.基础理论
 
 
 
@@ -1185,7 +1185,7 @@ const set3 = new Set([...set].filter(item => set2.has(item)));
 
 
 
-##### 2.LeetCode 349 两个数组的交集
+#### 2.LeetCode 349 两个数组的交集
 
 
 
@@ -1274,7 +1274,7 @@ var intersection = function(nums1, nums2) {
 
 
 
-##### 3.前端与集合：使用ES6中Set
+#### 3.前端与集合：使用ES6中Set
 
 
 
@@ -1302,11 +1302,11 @@ const difference = new Set([...mySet].filter(x => !mySet2.has(x)));
 
 
 
-#### 6.字典
+### 6.字典
 
 
 
-##### 1.基础理论
+#### 1.基础理论
 
 
 
@@ -1342,31 +1342,31 @@ m.get('a');
 
 
 
-#### 7.树
+### 7.树
 
 
 
-#### 8.图
+### 8.图
 
 
 
-#### 9.堆
+### 9.堆
 
 
 
-#### 10.搜索排序
+### 10.搜索排序
 
 
 
-#### 11.分而治之
+### 11.分而治之
 
 
 
-#### 12.动态规划
+### 12.动态规划
 
 
 
-#### 13.回溯算法
+### 13.回溯算法
 
 
 
