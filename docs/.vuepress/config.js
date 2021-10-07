@@ -13,7 +13,8 @@ module.exports = {
           { text: 'css', link: '/css/' }
         ]
       },
-      { text: 'JavaScript', link: '/JavaScript/' }
+      { text: 'JavaScript', link: '/JavaScript/' },
+      { text: '数据结构与算法', link: '/Algotithms/JavaScript数据结构与算法-imooc新课程' }
     ]
   }, 
 }
