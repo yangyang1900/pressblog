@@ -1,6 +1,6 @@
 ---
 home: true
-actionText: 快速上手 →
+actionText: 博客内容简介 →
 actionLink: /outline/
 features:
 - title: 简洁至上
