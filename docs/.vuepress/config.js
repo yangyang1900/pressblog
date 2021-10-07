@@ -14,7 +14,7 @@ module.exports = {
         ]
       },
       { text: 'JavaScript', link: '/JavaScript/' },
-      { text: '数据结构与算法', link: '/Algotithms/JavaScript数据结构与算法-imooc新课程' }
+      { text: '数据结构与算法', link: '/Algorithms/JavaScript数据结构与算法-imooc新课程' }
     ]
   }, 
 }
