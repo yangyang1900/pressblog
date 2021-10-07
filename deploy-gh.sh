@@ -16,6 +16,9 @@ git init
 git add -A
 git commit -m 'deploy'
 
+git config user.name yangyang1900
+git config user.email 2440286217@qq.com
+
 # 如果发布到 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
@@ -23,6 +26,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
 # 把上面的 <USERNAME> 换成你自己的 Github 用户名，<REPO> 换成仓库名，比如我这里就是：
-git push -f git@github.com:yangyang1900/pressblog.git main:gh-pages
+git push -f git@github.com:yangyang1900/pressblog.git master:gh-pages
 
 cd -
